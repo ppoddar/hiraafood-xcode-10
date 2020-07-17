@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		233D9B0B24C18EB200E037FF /* CustomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D9B0A24C18EB200E037FF /* CustomeNavigationBar.swift */; };
 		233D9B1324C1F3ED00E037FF /* hiraafood_xcode_10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D9B1224C1F3ED00E037FF /* hiraafood_xcode_10UITests.swift */; };
 		233D9B1B24C1FB3900E037FF /* Razorpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CA97B324BF5DE500E0B99D /* Razorpay.framework */; };
 		233D9B1D24C1FB6C00E037FF /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D9B1C24C1FB6C00E037FF /* Counter.swift */; };
@@ -25,8 +24,7 @@
 		233D9B2924C1FC4E00E037FF /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA97B824BF5EE200E0B99D /* UIConstants.swift */; };
 		233D9B2A24C1FC5400E037FF /* RandomStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA97D224BF985300E0B99D /* RandomStart.swift */; };
 		233D9B2B24C1FC5400E037FF /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA97BC24BF651A00E0B99D /* MockServer.swift */; };
-		233D9B2C24C1FC5400E037FF /* AddressSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974724BF5C5400E0B99D /* AddressSelectionView.swift */; };
-		233D9B2D24C1FC5400E037FF /* AddressSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975B24BF5C5600E0B99D /* AddressSelectionViewController.swift */; };
+		233D9B2C24C1FC5400E037FF /* AddressSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974724BF5C5400E0B99D /* AddressSelectionViewController.swift */; };
 		233D9B2E24C1FC5400E037FF /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA977724BF5C5900E0B99D /* AddressView.swift */; };
 		233D9B2F24C1FC5400E037FF /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA977424BF5C5900E0B99D /* CartViewController.swift */; };
 		233D9B3024C1FC5400E037FF /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975C24BF5C5600E0B99D /* CheckoutViewController.swift */; };
@@ -57,11 +55,9 @@
 		233D9B4924C1FC5400E037FF /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA976124BF5C5600E0B99D /* Storage.swift */; };
 		233D9B4A24C1FC5400E037FF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA976924BF5C5700E0B99D /* WelcomeViewController.swift */; };
 		233D9B4B24C1FC5400E037FF /* Shim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA97BA24BF615E00E0B99D /* Shim.swift */; };
-		233D9B4C24C1FC5400E037FF /* CustomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D9B0A24C18EB200E037FF /* CustomeNavigationBar.swift */; };
 		233D9B4D24C1FC5500E037FF /* RandomStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA97D224BF985300E0B99D /* RandomStart.swift */; };
 		233D9B4E24C1FC5500E037FF /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA97BC24BF651A00E0B99D /* MockServer.swift */; };
-		233D9B4F24C1FC5500E037FF /* AddressSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974724BF5C5400E0B99D /* AddressSelectionView.swift */; };
-		233D9B5024C1FC5500E037FF /* AddressSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975B24BF5C5600E0B99D /* AddressSelectionViewController.swift */; };
+		233D9B4F24C1FC5500E037FF /* AddressSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974724BF5C5400E0B99D /* AddressSelectionViewController.swift */; };
 		233D9B5124C1FC5500E037FF /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA977724BF5C5900E0B99D /* AddressView.swift */; };
 		233D9B5224C1FC5500E037FF /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA977424BF5C5900E0B99D /* CartViewController.swift */; };
 		233D9B5324C1FC5500E037FF /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975C24BF5C5600E0B99D /* CheckoutViewController.swift */; };
@@ -92,14 +88,13 @@
 		233D9B6C24C1FC5500E037FF /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA976124BF5C5600E0B99D /* Storage.swift */; };
 		233D9B6D24C1FC5500E037FF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA976924BF5C5700E0B99D /* WelcomeViewController.swift */; };
 		233D9B6E24C1FC5500E037FF /* Shim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA97BA24BF615E00E0B99D /* Shim.swift */; };
-		233D9B6F24C1FC5500E037FF /* CustomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233D9B0A24C18EB200E037FF /* CustomeNavigationBar.swift */; };
 		233D9B7024C1FCA100E037FF /* Razorpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CA97B324BF5DE500E0B99D /* Razorpay.framework */; };
 		233D9B7124C1FDD200E037FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA973424BF578B00E0B99D /* AppDelegate.swift */; };
 		233D9B7224C1FDD200E037FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA973424BF578B00E0B99D /* AppDelegate.swift */; };
 		23CA973524BF578B00E0B99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA973424BF578B00E0B99D /* AppDelegate.swift */; };
 		23CA973C24BF579100E0B99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CA973B24BF579100E0B99D /* Assets.xcassets */; };
 		23CA973F24BF579100E0B99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CA973D24BF579100E0B99D /* LaunchScreen.storyboard */; };
-		23CA977D24BF5C5A00E0B99D /* AddressSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974724BF5C5400E0B99D /* AddressSelectionView.swift */; };
+		23CA977D24BF5C5A00E0B99D /* AddressSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974724BF5C5400E0B99D /* AddressSelectionViewController.swift */; };
 		23CA977F24BF5C5A00E0B99D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974924BF5C5400E0B99D /* MenuController.swift */; };
 		23CA978024BF5C5A00E0B99D /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974A24BF5C5400E0B99D /* ErrorMessage.swift */; };
 		23CA978324BF5C5A00E0B99D /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA974D24BF5C5500E0B99D /* SectionHeaderView.swift */; };
@@ -110,7 +105,6 @@
 		23CA978824BF5C5A00E0B99D /* RemoteServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975224BF5C5500E0B99D /* RemoteServer.swift */; };
 		23CA978A24BF5C5A00E0B99D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975424BF5C5500E0B99D /* Order.swift */; };
 		23CA978C24BF5C5A00E0B99D /* ImageLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975624BF5C5500E0B99D /* ImageLibrary.swift */; };
-		23CA979124BF5C5A00E0B99D /* AddressSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975B24BF5C5600E0B99D /* AddressSelectionViewController.swift */; };
 		23CA979224BF5C5A00E0B99D /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975C24BF5C5600E0B99D /* CheckoutViewController.swift */; };
 		23CA979324BF5C5A00E0B99D /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA975D24BF5C5600E0B99D /* PaymentController.swift */; };
 		23CA979624BF5C5A00E0B99D /* InvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CA976024BF5C5600E0B99D /* InvoiceViewController.swift */; };
@@ -174,7 +168,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		233D9B0A24C18EB200E037FF /* CustomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeNavigationBar.swift; sourceTree = "<group>"; };
 		233D9B1024C1F3ED00E037FF /* hiraafood-xcode-10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hiraafood-xcode-10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		233D9B1224C1F3ED00E037FF /* hiraafood_xcode_10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiraafood_xcode_10UITests.swift; sourceTree = "<group>"; };
 		233D9B1424C1F3ED00E037FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -184,7 +177,7 @@
 		23CA973B24BF579100E0B99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23CA973E24BF579100E0B99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23CA974024BF579100E0B99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23CA974724BF5C5400E0B99D /* AddressSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSelectionView.swift; sourceTree = "<group>"; };
+		23CA974724BF5C5400E0B99D /* AddressSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSelectionViewController.swift; sourceTree = "<group>"; };
 		23CA974924BF5C5400E0B99D /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		23CA974A24BF5C5400E0B99D /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		23CA974D24BF5C5500E0B99D /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
@@ -195,7 +188,6 @@
 		23CA975224BF5C5500E0B99D /* RemoteServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteServer.swift; sourceTree = "<group>"; };
 		23CA975424BF5C5500E0B99D /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		23CA975624BF5C5500E0B99D /* ImageLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLibrary.swift; sourceTree = "<group>"; };
-		23CA975B24BF5C5600E0B99D /* AddressSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSelectionViewController.swift; sourceTree = "<group>"; };
 		23CA975C24BF5C5600E0B99D /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		23CA975D24BF5C5600E0B99D /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
 		23CA976024BF5C5600E0B99D /* InvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceViewController.swift; sourceTree = "<group>"; };
@@ -313,8 +305,7 @@
 				23CA97D024BF934D00E0B99D /* TableCell.swift */,
 				23CA97BC24BF651A00E0B99D /* MockServer.swift */,
 				23CA97B824BF5EE200E0B99D /* UIConstants.swift */,
-				23CA974724BF5C5400E0B99D /* AddressSelectionView.swift */,
-				23CA975B24BF5C5600E0B99D /* AddressSelectionViewController.swift */,
+				23CA974724BF5C5400E0B99D /* AddressSelectionViewController.swift */,
 				23CA977724BF5C5900E0B99D /* AddressView.swift */,
 				23CA977424BF5C5900E0B99D /* CartViewController.swift */,
 				23CA975C24BF5C5600E0B99D /* CheckoutViewController.swift */,
@@ -348,7 +339,6 @@
 				23CA97BA24BF615E00E0B99D /* Shim.swift */,
 				23CA97CC24BF84F000E0B99D /* ApplicationObjectModel.swift */,
 				23CA97CE24BF91B000E0B99D /* UIGoodies.swift */,
-				233D9B0A24C18EB200E037FF /* CustomeNavigationBar.swift */,
 				233D9B1C24C1FB6C00E037FF /* Counter.swift */,
 			);
 			path = src;
@@ -503,7 +493,7 @@
 				233D9B6624C1FC5500E037FF /* RemoteServer.swift in Sources */,
 				233D9B6424C1FC5500E037FF /* OrderViewController.swift in Sources */,
 				233D9B6224C1FC5500E037FF /* OrderItemController.swift in Sources */,
-				233D9B4F24C1FC5500E037FF /* AddressSelectionView.swift in Sources */,
+				233D9B4F24C1FC5500E037FF /* AddressSelectionViewController.swift in Sources */,
 				233D9B5924C1FC5500E037FF /* InvoiceItemView.swift in Sources */,
 				233D9B1F24C1FBF100E037FF /* Counter.swift in Sources */,
 				233D9B2124C1FC1B00E037FF /* ApplicationObjectModel.swift in Sources */,
@@ -521,10 +511,8 @@
 				233D9B5B24C1FC5500E037FF /* ItemCell.swift in Sources */,
 				233D9B6A24C1FC5500E037FF /* SizedTableView.swift in Sources */,
 				233D9B6524C1FC5500E037FF /* PaymentController.swift in Sources */,
-				233D9B5024C1FC5500E037FF /* AddressSelectionViewController.swift in Sources */,
 				233D9B5524C1FC5500E037FF /* ErrorMessage.swift in Sources */,
 				233D9B5D24C1FC5500E037FF /* KeyboardTextView.swift in Sources */,
-				233D9B6F24C1FC5500E037FF /* CustomeNavigationBar.swift in Sources */,
 				233D9B7224C1FDD200E037FF /* AppDelegate.swift in Sources */,
 				233D9B6324C1FC5500E037FF /* OrderItemView.swift in Sources */,
 				233D9B1324C1F3ED00E037FF /* hiraafood_xcode_10UITests.swift in Sources */,
@@ -553,7 +541,6 @@
 				23CA979F24BF5C5A00E0B99D /* WelcomeViewController.swift in Sources */,
 				23CA978324BF5C5A00E0B99D /* SectionHeaderView.swift in Sources */,
 				23CA97BB24BF615E00E0B99D /* Shim.swift in Sources */,
-				23CA979124BF5C5A00E0B99D /* AddressSelectionViewController.swift in Sources */,
 				23CA979624BF5C5A00E0B99D /* InvoiceViewController.swift in Sources */,
 				23CA97CD24BF84F000E0B99D /* ApplicationObjectModel.swift in Sources */,
 				23CA978424BF5C5A00E0B99D /* ItemView.swift in Sources */,
@@ -567,14 +554,13 @@
 				233D9B1D24C1FB6C00E037FF /* Counter.swift in Sources */,
 				23CA978024BF5C5A00E0B99D /* ErrorMessage.swift in Sources */,
 				23CA97AC24BF5C5A00E0B99D /* UIFactory.swift in Sources */,
-				23CA977D24BF5C5A00E0B99D /* AddressSelectionView.swift in Sources */,
+				23CA977D24BF5C5A00E0B99D /* AddressSelectionViewController.swift in Sources */,
 				23CA97D324BF985400E0B99D /* RandomStart.swift in Sources */,
 				23CA97D124BF934D00E0B99D /* TableCell.swift in Sources */,
 				23CA979B24BF5C5A00E0B99D /* ServerProtocol.swift in Sources */,
 				23CA97A724BF5C5A00E0B99D /* SizedTextView.swift in Sources */,
 				23CA979824BF5C5A00E0B99D /* KeyboardTextView.swift in Sources */,
 				23CA97B024BF5C5A00E0B99D /* SizedTableView.swift in Sources */,
-				233D9B0B24C18EB200E037FF /* CustomeNavigationBar.swift in Sources */,
 				23CA978A24BF5C5A00E0B99D /* Order.swift in Sources */,
 				23CA979E24BF5C5A00E0B99D /* DeliveryController.swift in Sources */,
 				23CA979324BF5C5A00E0B99D /* PaymentController.swift in Sources */,
@@ -602,7 +588,7 @@
 				233D9B4324C1FC5400E037FF /* RemoteServer.swift in Sources */,
 				233D9B4124C1FC5400E037FF /* OrderViewController.swift in Sources */,
 				233D9B3F24C1FC5400E037FF /* OrderItemController.swift in Sources */,
-				233D9B2C24C1FC5400E037FF /* AddressSelectionView.swift in Sources */,
+				233D9B2C24C1FC5400E037FF /* AddressSelectionViewController.swift in Sources */,
 				233D9B3624C1FC5400E037FF /* InvoiceItemView.swift in Sources */,
 				233D9B1E24C1FBF000E037FF /* Counter.swift in Sources */,
 				233D9B2024C1FC1A00E037FF /* ApplicationObjectModel.swift in Sources */,
@@ -620,10 +606,8 @@
 				233D9B3824C1FC5400E037FF /* ItemCell.swift in Sources */,
 				233D9B4724C1FC5400E037FF /* SizedTableView.swift in Sources */,
 				233D9B4224C1FC5400E037FF /* PaymentController.swift in Sources */,
-				233D9B2D24C1FC5400E037FF /* AddressSelectionViewController.swift in Sources */,
 				233D9B3224C1FC5400E037FF /* ErrorMessage.swift in Sources */,
 				233D9B3A24C1FC5400E037FF /* KeyboardTextView.swift in Sources */,
-				233D9B4C24C1FC5400E037FF /* CustomeNavigationBar.swift in Sources */,
 				233D9B7124C1FDD200E037FF /* AppDelegate.swift in Sources */,
 				233D9B4024C1FC5400E037FF /* OrderItemView.swift in Sources */,
 				23CA97C524BF802800E0B99D /* hiraafood_xcode_10_Tests.swift in Sources */,

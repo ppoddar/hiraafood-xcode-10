@@ -1,16 +1,19 @@
 import UIKit
 
+/*
+ * modes specify how application wil start
+ */
 enum ApplicationMode {
-    case test, local, remote
+    case dev, stage
 }
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
-    let mode:ApplicationMode = ApplicationMode.local
+    let mode:ApplicationMode = ApplicationMode.dev
+    
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         DispatchQueue.global().async {
-            print("connecting to server....")
             do {
                 let server = Shim().server()
                 let started = try server.start()
@@ -35,18 +38,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.navigationBar.configure()
 
         window!.rootViewController = navigationController
-        
+        var startPage:UIViewController
         switch mode {
-        case .test:
-            let main:UIViewController = RandomStart().startController(.payment)
-            navigationController.pushViewController(main, animated: true)
-                   default:
-            let main:UIViewController = WelcomeViewController()
-            navigationController.pushViewController(main, animated: true)
+        case .dev:
+            startPage = RandomStart().startController(.delivery)
+        case .stage:
+            startPage = WelcomeViewController()
         }
-        
+        navigationController.pushViewController(startPage, animated: true)
         window!.makeKeyAndVisible()
-        
        
         return true
     }

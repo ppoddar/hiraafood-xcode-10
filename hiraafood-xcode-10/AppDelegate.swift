@@ -1,21 +1,53 @@
-//
-//  AppDelegate.swift
-//  hiraafood-xcode-10
-//
-//  Created by Pinaki Poddar on 7/15/20.
-//  Copyright © 2020 Digital Artisan. All rights reserved.
-//
-
 import UIKit
+
+enum ApplicationMode {
+    case test, local, remote
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
+    let mode:ApplicationMode = ApplicationMode.local
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        DispatchQueue.global().async {
+            print("connecting to server....")
+            do {
+                let server = Shim().server()
+                let started = try server.start()
+                if !started {
+                    print("failed to start server")
+                }
+            } catch {
+                print("failed to start server")
+                print(error)
+            }
+        }
+        return true
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        print("======================================")
+        print("launch application mode=\(mode)")
+        
+        let frame = UIScreen.main.bounds
+        window = UIWindow(frame: frame)
+        let navigationController = UINavigationController()
+        navigationController.navigationBar.configure()
+
+        window!.rootViewController = navigationController
+        
+        switch mode {
+        case .test:
+            let main:UIViewController = RandomStart().startController(.payment)
+            navigationController.pushViewController(main, animated: true)
+                   default:
+            let main:UIViewController = WelcomeViewController()
+            navigationController.pushViewController(main, animated: true)
+        }
+        
+        window!.makeKeyAndVisible()
+        
+       
         return true
     }
 
@@ -40,7 +72,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 
